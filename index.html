@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instituto Musical</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <img src="img/logo001.png" id="logo">
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu ">
+                            <img src="img/cart.png" id="img-carrito">
+                            
+                            <div id="carrito">
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>Aprende junto a nosotros</h2>
+                        <p>Este verano todos los cursos 50% off</p>
+                        <form action="#" id="busqueda" method="post" class="formulario">
+                            <input class="u-full-width" type="text" placeholder="¿Que te gustaría Aprender?"
+                                id="buscador">
+                            <input type="submit" id="submit-buscador" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>Variedad de cursos en línea <br>
+                        Explora los que más te gusten</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Profesores de trayectoria<br>
+                        Aprende con distintos estilos</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Acceso de por vida <br>
+                        Aprende a tu ritmo</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">Nuestros Cursos En Línea</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/001.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Piano y Teclado Principiante</h4>
+                        <p>Ricardo Sánchez</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$2000 <span class="u-pull-right ">$150</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/002.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Guitarra Eléctrica Principiante</h4>
+                        <p>Juan Rodríguez</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$2000 <span class="u-pull-right ">$150</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/003.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Bajo Eléctrico Principiante</h4>
+                        <p>Carlos Álves</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$2000 <span class="u-pull-right ">$150</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/004.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Batería, Rítmica, Percusión</h4>
+                        <p>Osvaldo Gutiérrez</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$2000 <span class="u-pull-right ">$150</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/005.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Saxofón Principiante</h4>
+                        <p>Juan Pérez</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$2000 <span class="u-pull-right ">$150</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/006.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Técnica vocal, Canto, Entonación</h4>
+                        <p>Sofía Ramón</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$2000 <span class="u-pull-right ">$150</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/007.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Guitarra Acústica</h4>
+                        <p>Juan Rodríguez</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$2000 <span class="u-pull-right ">$150</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/008.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Guitarra Eléctrica Avanzado</h4>
+                        <p>Juan Rodríguez</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$2000 <span class="u-pull-right ">$150</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/009.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Bajo Eléctrico Avanzado</h4>
+                        <p>Carlos Álves</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$2000 <span class="u-pull-right ">$150</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+        </div>
+        <!--.row-->
+
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav id="principal" class="menu">
+                        <a class="enlace" href="#">¿Como enseñamos?</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav id="secundaria" class="menu">
+                        <a class="enlace" href="./email.html">Contacto</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav id="secundaria" class="menu">
+                        <a class="enlace" href="#">¿Quienes Somos?</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
